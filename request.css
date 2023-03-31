@@ -1,0 +1,60 @@
+.request-main{
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.request-main h2{
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 98, 120);
+    border-radius: 10px;
+    box-shadow: 0px 5px 17px -7px rgb(0,0,0,0.75);
+}
+.messagebox{
+    position: relative;
+    background-color: rgb(96, 246, 91);
+    width: 300px;
+    height: fit-content;
+    border-radius: 20px;
+    border-bottom-right-radius: 8px;
+}
+.profilecontent{
+    display: flex;
+    align-items: center;
+}
+.profilecontent p{
+    font-size: large;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.messagedisplay p{
+color: rgb(129, 0, 9);
+font-weight: bold;
+margin-left: 10px;
+}
+.para3{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+.second-main{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.second-main button{
+    background-color: rgb(255, 128, 0);
+    color: white;
+    border-radius: 20px;
+    width: 120px;
+    height: 50px;
+    margin: 20px;
+    outline: 0;
+    border: 0;
+    box-shadow: 0px 5px 17px -7px rgb(0,0,0,0.75);
+    cursor: pointer;
+    transition: all 0.2 linear 0s;
+}
+.buttondiv{
+    margin-left: 100px;
+}
