@@ -1,0 +1,108 @@
+.main{
+    max-width: 100%;
+    height: 100vh;
+    background-color: rgb(2, 35, 49);
+    position: relative;
+}
+.cards{
+    position: absolute;
+    top: 15%;
+        width: 100%;
+    height: 80vh;
+    background-color:rgb(3, 39, 54); ;
+    position: relative;
+}
+.c1{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    height: 320px;
+    width: 220px;
+background-image: url('https://cdn.pixabay.com/photo/2023/03/28/17/04/woman-7883774_960_720.jpg');
+background-repeat: no-repeat;
+background-size: contain;
+    z-index: 999;
+    animation:  slider 5s linear;
+}
+.c2{
+    position: absolute;
+    height: 320px;
+    width: 220px;
+    background-image: url('https://cdn.pixabay.com/photo/2023/04/14/13/44/ai-generated-7925135_960_720.jpg');
+background-repeat: no-repeat;
+background-size: 220px 320px;
+    top: 20%;
+    left: 17%;
+    animation:  slider2 5s linear;
+    z-index: 99;
+}
+@keyframes slider {
+30%{
+transform: rotate(-45deg);
+}
+35%{
+    transform: rotate(-360deg);
+    left: 5%;
+}
+75%{
+transform: rotate(0deg);
+z-index: 0; transform: scale(0.9); opacity: 0.5;
+}
+80%{
+transform: rotate(0deg);
+z-index: 0; transform: scale(0.9); opacity: 0.5;
+}
+
+}
+@keyframes slider2 {
+    30%{
+    transform: rotate(45deg);
+    }
+    35%{
+        transform: rotate(360deg);
+        left:22%;
+    }
+    75%{
+    transform: rotate(-0deg);
+    z-index: 4; transform: scale(1.1); opacity: 1;
+    }
+    80%{
+    transform: rotate(-0deg);
+    z-index: 4; transform: scale(1.1); opacity: 1;
+    }
+    
+    }
+    .c3{
+        position: absolute;
+        top: 25%;
+        left: 15%;
+        height: 320px;
+        width: 220px;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/13/17/55/budgie-1821551_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: 220px 320px;
+        z-index: 1;
+        animation:  slider3 5s  linear ;
+    }
+    .c4{
+        position: absolute;
+        top: 20%;
+        left: 23%;
+        height: 320px;
+        width: 220px;
+    background-image: url('https://cdn.pixabay.com/photo/2023/04/14/13/44/ai-generated-7925134_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: 220px 320px;
+        z-index: 99;
+    }
+    .c5{
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        height: 320px;
+        width: 220px;
+        background-image: url('https://cdn.pixabay.com/photo/2019/08/28/08/44/girl-4436130_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: 220px 320px;
+        z-index: 1;
+    }
